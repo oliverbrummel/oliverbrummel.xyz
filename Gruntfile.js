@@ -33,7 +33,8 @@ module.exports = function(grunt) {
                    "angular-aria/angular-aria.min.js",
                    "angular-messages/angular-messages.min.js",
                    "angular-material/angular-material.min.js",
-                   "angular-material/angular-material.min.css"
+                   "angular-material/angular-material.min.css",
+                   "font-awesome/css/font-awesome.min.css"
                ],
                "dest": "server/public/vendors/"
            }
