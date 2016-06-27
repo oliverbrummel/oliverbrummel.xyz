@@ -34,7 +34,8 @@ module.exports = function(grunt) {
                    "angular-messages/angular-messages.min.js",
                    "angular-material/angular-material.min.js",
                    "angular-material/angular-material.min.css",
-                   "font-awesome/css/font-awesome.min.css"
+                   "font-awesome/css/font-awesome.min.css",
+                   "jquery/dist/jquery.min.js"
                ],
                "dest": "server/public/vendors/"
            }

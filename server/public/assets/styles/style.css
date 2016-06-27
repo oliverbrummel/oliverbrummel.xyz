@@ -1,0 +1,48 @@
+@font-face {
+  font-family: pressStart;
+  src: url(fonts/prstart.ttf);
+}
+
+body {
+  font-family: pressStart;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+#title {
+  /*display: inline-block;*/
+  text-align: center;
+  margin-top: 150px;
+  font-size: 1.5em;
+  /*border: 6px dotted #00c4c4;*/
+}
+
+h1 {
+  display: inline;
+  border: 6px dotted #00ff00;
+  padding: 15px 15px 15px 15px;
+}
+
+h1.borderNone {
+  border: 6px dotted #000000;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  font-size: 1.2em;
+}
+
+tr {
+  height: 45px;
+}
+
+.firstCell, .lastCell {
+  color: #00ff00;
+}

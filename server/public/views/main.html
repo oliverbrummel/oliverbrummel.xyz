@@ -4,22 +4,68 @@
     <meta charset="utf-8">
     <title>Oliver Brummel</title>
     <!-- <link rel = "stylesheet" href = "vendors/font-awesome/css/font-awesome.min.css" /> -->
+    <script src = "vendors/jquery/dist/jquery.min.js"></script>
     <script src = "vendors/angular/angular.min.js"></script>
     <script src = "vendors/angular-animate/angular-animate.min.js"></script>
     <script src = "vendors/angular-aria/angular-aria.min.js"></script>
     <script src = "vendors/angular-messages/angular-messages.min.js"></script>
     <script src = "vendors/angular-material/angular-material.min.js"></script>
     <link rel = "stylesheet" href = "vendors/angular-material/angular-material.min.css" />
+
     <!-- [[[[[[[[[[[[[[[[ LOCAL ]]]]]]]]]]]]]]]] -->
     <script src = "assets/scripts/client.min.js"></script>
     <link rel = "stylesheet" href = "assets/styles/style.css" />
   </head>
   <body ng-app = "oliverApp" layout = "column">
-    <h1>Oliver Brummel</h1>
-
-    <div id = "profilePic">
-      <img src = "assets/media/horns.jpg"/>
+    <div id = "title">
+      <h1>OLIVER BRUMMEL</h1>
     </div>
+
+    <!-- <div id = "list">
+      <ul>
+        <li>
+          <a href = "https://www.linkedin.com/in/oliver-brummel-14a150a0">1 - LinkedIn</a>
+        </li>
+        <li>
+          <a href = "https://twitter.com/OlyWolly">2 - Twitter</a>
+        </li>
+        <li>
+          <a href="http://stackoverflow.com/users/6164504/oliver-brummel">3 - Stack Overflow</a>
+        </li>
+        <li>
+          <a href = "https://github.com/oliverbrummel">3 - Github</a>
+        </li>
+      </ul>
+    </div> -->
+
+    <div>
+      <table>
+        <tr>
+          <td class = "firstCell"></td>
+          <td><a href = "https://www.linkedin.com/in/oliver-brummel-14a150a0">1 - LinkedIn</a></td>
+          <td class = "lastCell"></td>
+        </tr>
+        <tr>
+          <td class = "firstCell"></td>
+          <td><a href = "https://twitter.com/OlyWolly">2 - Twitter</a></td>
+          <td class = "lastCell"></td>
+        </tr>
+        <!-- <tr>
+          <td class = "firstCell"></td>
+          <td><a href="http://stackoverflow.com/users/6164504/oliver-brummel">3 - Stack Overflow</a></td>
+          <td class = "lastCell"></td>
+        </tr> -->
+        <tr>
+          <td class = "firstCell"></td>
+          <td><a href = "https://github.com/oliverbrummel">3 - Github</a></td>
+          <td class = "lastCell"></td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- <div id = "profilePic">
+      <img src = "assets/media/horns.jpg"/>
+    </div> -->
 
     <div>
       <i class="fa fa-linkedin-square" aria-hidden="true"></i>
