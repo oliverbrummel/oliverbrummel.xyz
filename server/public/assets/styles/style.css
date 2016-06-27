@@ -45,4 +45,6 @@ tr {
 
 .firstCell, .lastCell {
   color: #00ff00;
+  padding-left: 40px;
+  padding-right: 40px;
 }
